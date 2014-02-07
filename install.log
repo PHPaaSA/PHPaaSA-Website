@@ -1,0 +1,120 @@
+$ composer create-project laravel/laravel phpaasa-wsi-services-website --prefer-dist
+Installing laravel/laravel (v4.0.6)
+  - Installing laravel/laravel (v4.0.6)
+    Downloading: 100%         
+
+Created project in phpaasa-wsi-services-website
+Loading composer repositories with package information
+Installing dependencies (including require-dev)
+  - Installing filp/whoops (1.0.7)
+    Downloading: 100%         
+
+  - Installing doctrine/lexer (dev-master bc0e1f0)
+    Downloading: 100%         
+
+  - Installing doctrine/annotations (v1.1.2)
+    Downloading: 100%         
+
+  - Installing doctrine/collections (dev-master 623caf4)
+    Downloading: 100%         
+
+  - Installing doctrine/cache (v1.1)
+    Downloading: 100%         
+
+  - Installing doctrine/inflector (dev-master 8b4b3cc)
+    Downloading: 100%         
+
+  - Installing doctrine/common (dev-master b4c7860)
+    Downloading: 100%         
+
+  - Installing doctrine/dbal (dev-master 7ffb270)
+    Downloading: 100%         
+
+  - Installing symfony/translation (2.3.x-dev c2d964f)
+    Downloading: 100%         
+
+  - Installing psr/log (1.0.0)
+    Downloading: 100%         
+
+  - Installing symfony/routing (2.3.x-dev 69af3f0)
+    Downloading: 100%         
+
+  - Installing symfony/process (2.3.x-dev 1e91553)
+    Downloading: 100%         
+
+  - Installing symfony/debug (2.3.x-dev 729f6d1)
+    Downloading: 100%         
+
+  - Installing symfony/http-foundation (2.3.x-dev 6518848)
+    Downloading: 100%         
+
+  - Installing symfony/event-dispatcher (2.3.x-dev 41c9826)
+    Downloading: 100%         
+
+  - Installing symfony/http-kernel (2.3.x-dev 0c17407)
+    Downloading: 100%         
+
+  - Installing symfony/finder (2.3.x-dev 4a0fee5)
+    Downloading: 100%         
+
+  - Installing symfony/dom-crawler (2.3.x-dev e05e07f)
+    Downloading: 100%         
+
+  - Installing symfony/css-selector (2.3.x-dev 8855442)
+    Downloading: 100%         
+
+  - Installing symfony/console (2.3.x-dev db78f8f)
+    Downloading: 100%         
+
+  - Installing symfony/browser-kit (2.3.x-dev 2639dc4)
+    Downloading: 100%         
+
+  - Installing swiftmailer/swiftmailer (v5.0.1)
+    Downloading: 100%         
+
+  - Installing predis/predis (0.8.x-dev v0.8.4)
+    Downloading: 100%         
+
+  - Installing patchwork/utf8 (v1.1.11)
+    Downloading: 100%         
+
+  - Installing nesbot/carbon (1.3.0)
+    Downloading: 100%         
+
+  - Installing monolog/monolog (1.5.0)
+    Downloading: 100%         
+
+  - Installing ircmaxell/password-compat (1.0.x-dev 1fc1521)
+    Downloading: 100%         
+
+  - Installing nikic/php-parser (dev-master 3d467ca)
+    Downloading: 100%         
+
+  - Installing symfony/filesystem (dev-master da0dcf6)
+    Downloading: 100%         
+
+  - Installing classpreloader/classpreloader (1.0.1)
+    Downloading: 100%         
+
+  - Installing laravel/framework (4.0.x-dev cce2374)
+    Downloading: 100%         
+
+symfony/translation suggests installing symfony/config ()
+symfony/translation suggests installing symfony/yaml ()
+symfony/routing suggests installing symfony/config ()
+symfony/routing suggests installing symfony/yaml ()
+symfony/debug suggests installing symfony/class-loader ()
+symfony/event-dispatcher suggests installing symfony/dependency-injection ()
+symfony/http-kernel suggests installing symfony/class-loader ()
+symfony/http-kernel suggests installing symfony/config ()
+symfony/http-kernel suggests installing symfony/dependency-injection ()
+predis/predis suggests installing ext-phpiredis (Allows faster serialization and deserialization of the Redis protocol)
+monolog/monolog suggests installing mlehner/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing raven/raven (Allow sending log messages to a Sentry server)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
+Writing lock file
+Generating autoload files
+Generating optimized class loader
+Application key [mLLgOvvmCdX6rG2U98ffBhY59dOpu8Tc] set successfully.
