@@ -70,11 +70,11 @@ a:hover {
 /* optional: #bodyspan3[id] {position: static;} */
 #logo {
     background: url(http://photos2.meetupstatic.com/photos/event/1/5/2/3/highres_29525411.jpeg) no-repeat center center;
-    height: 930px;
+    background-size: 100%;
+    height: 470px;
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
-    zoom: 45%;
+    width: 450px;
 }
 #title {
     font-size: 60px;
