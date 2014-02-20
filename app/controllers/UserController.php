@@ -5,8 +5,7 @@ class UserController extends BaseController {
 	/**
 	 * Instantiate a new UserController instance.
 	 */
-	public function __construct()
-	{
+	public function __construct() {
 		$this->beforeFilter('auth');
 
 		$this->beforeFilter('csrf', array('on' => 'post'));
@@ -18,16 +17,14 @@ class UserController extends BaseController {
 	/**
 	 * Show the profile for the given user.
 	 */
-	public function showProfile($id)
-	{
+	public function showProfile($id) {
 		$user = User::find($id);
 
 		return View::make('user.profile', array('user' => $user));
 	}
 
-	public function getIndex()
-	{
-		return 'Index';
+	public function getIndex() {
+		return View::make('users');
 	}
 
 }

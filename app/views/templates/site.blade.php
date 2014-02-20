@@ -13,6 +13,10 @@
 		</style>
 	</head>
 	<body>
-		@yield('site.content', 'Extend Me!')
+		<header></header>
+		<article>
+			@yield('site.content', 'Extend Me!')
+		</article>
+		<footer></footer>
 	</body>
 </html>
