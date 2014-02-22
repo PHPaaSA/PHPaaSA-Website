@@ -1,9 +1,9 @@
 @extends('templates/site')
 
 @section('site.title')
-	@parent &ndash; Users
+	@parent &ndash; Home
 @stop
 
 @section('site.body')
-	A Blade Users!
+	<p>This is test content!</p>
 @stop

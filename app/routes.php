@@ -20,9 +20,9 @@ Route::get('git/pull', function() {
 	// http://jondavidjohn.com/blog/2012/10/git-pull-from-a-php-script-not-so-simple
 	$shellOutput = shell_exec('git pull 2>&1');
 	return View::make(
-		'templates/site-content',
+		'templates/site-single-pane',
 		array(
-			'site_content' => '<h2>GIT Pull</h2><pre>'.$shellOutput.'</pre>'
+			'site_pane_1_content' => '<h2>GIT Pull</h2><pre>'.$shellOutput.'</pre>'
 		)
 	);
 });
