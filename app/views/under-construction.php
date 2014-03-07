@@ -57,15 +57,11 @@ a:hover {
 	position: static;
 }
 #bodyspan3 {
-	position: relative;
-	top: -50%;
-	text-align: left;
-}
-#bodyspan3 {
-	width: 750px;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
+	position: relative;
+	top: -50%;
+	width: 975px;
 }
 /* optional: #bodyspan3[id] {position: static;} */
 #logo {
@@ -94,6 +90,13 @@ a:hover {
 	border: 0px;
 	vertical-align: middle;
 }
+#meetup-group-widget {
+	float: right;
+	margin-top: 2em;
+}
+#splash-box {
+	float: left;
+}
 		</style>
 		<script>
 			var _gaq=[['_setAccount','UA-19499387-1'],['_trackPageview']];
@@ -106,10 +109,14 @@ a:hover {
 		<div id="bodyspan1">
 			<div id="bodyspan2">
 				<div id="bodyspan3">
-					<a href="http://meetup.phpaasa.wsi-services.com"><div id="logo">&nbsp;</div></a>
-					<div id="title" class="FFFTusjBold">PHP as a Social Activity</div>
-					<div class="under-construction JunkOSTypewriterRegular">Under Construction</div>
-					<div class="contact-information PlaytimeWithHotToddiesObliqRg"><span>Come see our group activity on <a href="http://meetup.phpaasa.wsi-services.com">Meetup <img alt="PHP as a Social Activity" src="http://img.meetup.com/img/logo_45.png"></a></span></div>
+					<div id="splash-box">
+						<a href="http://meetup.phpaasa.wsi-services.com"><div id="logo">&nbsp;</div></a>
+						<div id="title" class="FFFTusjBold">PHP as a Social Activity</div>
+						<div class="under-construction JunkOSTypewriterRegular">Under Construction</div>
+						<div class="contact-information PlaytimeWithHotToddiesObliqRg"><span>Come see our group activity on <a href="http://meetup.phpaasa.wsi-services.com">Meetup <img alt="PHP as a Social Activity" src="http://img.meetup.com/img/logo_45.png"></a></span></div>
+					</div>
+					<!-- Generated: http://www.meetup.com/meetup_api/foundry/ -->
+					<iframe id="meetup-group-widget" width="225" height="570" src="http://meetu.ps/2d9Qpn" frameborder="0"></iframe>
 				</div>
 			</div>
 		</div>
