@@ -19,11 +19,12 @@
 	font-family: "PlaytimeWithHotToddiesObliqRg";
 }
 html, body {
-	height: 99%;
+	height: 98%;
 }
 body {
 	background: #458cc6;
 	color: white;
+	font-size: 26pt;
 	text-align: center;
 }
 a {
@@ -67,21 +68,21 @@ a:hover {
 #logo {
 	background: url(http://photos2.meetupstatic.com/photos/event/1/5/2/3/highres_29525411.jpeg) no-repeat center center;
 	background-size: 100%;
-	height: 470px;
+	height: 433px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 450px;
+	width: 415px;
 }
 #title {
-	font-size: 60px;
+	font-size: 1.75em;
 }
 .under-construction {
 	color: #1c3a52;
-	font-size: 50px;
+	font-size: 1.5em;
 	line-height: 1em;
 }
 .contact-information {
-	font-size: 18px;
+	font-size: 0.75em;
 }
 .contact-information span {
 	line-height: 4em;
