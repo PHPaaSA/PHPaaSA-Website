@@ -117,7 +117,7 @@ a:hover {
 						<div class="contact-information PlaytimeWithHotToddiesObliqRg"><span>Come see our group activity on <a href="http://meetup.phpaasa.wsi-services.com">Meetup <img alt="PHP as a Social Activity" src="http://img.meetup.com/img/logo_45.png"></a></span></div>
 					</div>
 					<!-- Generated: http://www.meetup.com/meetup_api/foundry/ -->
-					<iframe id="meetup-group-widget" width="225" height="570" src="http://meetu.ps/2d9Qpn" frameborder="0"></iframe>
+					<iframe id="meetup-group-widget" width="225" height="570" src="http://meetu.ps/2Vcg39" frameborder="0"></iframe>
 				</div>
 			</div>
 		</div>
