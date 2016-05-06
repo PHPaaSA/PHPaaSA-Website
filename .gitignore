@@ -1,6 +1,8 @@
+/.vagrant/
 /bootstrap/compiled.php
-/vendor
-composer.phar
-composer.lock
+/vendor/
+/composer.phar
+/composer.lock
+/Homestead.yaml
 .DS_Store
 Thumbs.db
