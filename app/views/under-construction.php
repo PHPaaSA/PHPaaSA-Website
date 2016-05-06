@@ -83,9 +83,7 @@ a:hover {
 }
 .contact-information {
 	font-size: 0.75em;
-}
-.contact-information span {
-	line-height: 4em;
+	margin: 1em 0 0.5ex;
 }
 .contact-information img {
 	border: 0px;
@@ -114,7 +112,7 @@ a:hover {
 						<a href="http://meetup.phpaasa.wsi-services.com"><div id="logo">&nbsp;</div></a>
 						<div id="title" class="FFFTusjBold">PHP as a Social Activity</div>
 						<div class="under-construction JunkOSTypewriterRegular">Under Construction</div>
-						<div class="contact-information PlaytimeWithHotToddiesObliqRg"><span>Come see our group activity on <a href="http://meetup.phpaasa.wsi-services.com">Meetup <img alt="PHP as a Social Activity" src="http://img.meetup.com/img/logo_45.png"></a></span></div>
+						<div class="contact-information PlaytimeWithHotToddiesObliqRg"><span>Come see our group activity on <a href="http://meetup.phpaasa.wsi-services.com">Meetup <img alt="PHP as a Social Activity" src="http://img.meetup.com/img/logo_45.png"></a><br>- OR -<br>Check out some <a href="http://presentations.phpaasa.wsi-services.com">presentations</a></span></div>
 					</div>
 					<!-- Generated: http://www.meetup.com/meetup_api/foundry/ -->
 					<iframe id="meetup-group-widget" width="225" height="570" src="http://meetu.ps/2Vcg39" frameborder="0"></iframe>
